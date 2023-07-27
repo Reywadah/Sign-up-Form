@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.leftSide{
+    background-color: rgb(3, 91, 168);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(lorenzo-berti-SwLUGdZSgC8-unsplash.jpg);
+    background-size: cover;
+}
+.heading{
+    padding: auto;
+    height: 12vh;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18vh;
+}
+.heading h2{
+    font-size: 7vh;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1vh;
+}
+.heading img{
+    height: 9vh;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+    position: relative;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.439);
+
+}
+.footer p, .footer a{
+    color: aliceblue;
+    margin: 0;
+}
+.rightSide{
+    width: 60%;
+    font-size: 24px;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(1, 1, 1);
+    color: rgb(185, 185, 185);
+    font-weight: 1;
+}
+p.heading{
+    height: fit-content;
+    padding-left: 2vw;
+    height: 12vh;
+    width: fit-content;
+}
+fieldset{
+    border: 0px;
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul.biggerList > li {
+    margin-top: 3vh;
+}
+.lists{
+    display: flex;
+    justify-content: start;
+}
+.lists > li{
+    margin-left: 30px;
+    font-size: 0.6em;
+    color: grey;
+}
+input{
+    background-color: rgb(21, 21, 21);
+    border: solid 1px black;
+    color: grey;
+    font-size: 17px;
+    height: 20px;
+    width: 20vw;
+    border-color: -internal-light-dark(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(110, 110, 110) inset !important;
+    -webkit-text-fill-color: black !important;}
+
+input:active, input:focus{
+    background-color: rgb(21, 21, 21);
+    color: grey;
+    cursor: auto;
+}
+
+.rightSide button{
+    margin-top: 20px;
+    background-color: black;
+    margin-left: 2vw;
+    color: #123d4e;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 20px 50px 20px 50px;
+    font-size: 1.2em;
+    border: solid 2px#123d4e;
+}
+.rightSide button:hover{
+    background-color: #123d4e;
+    color: black;
+    cursor: pointer;
+}
+.rightSide .logInRefence{
+    margin-left: 2vw;
+}
+.rightSide .logInRefence a{
+    color: #123d4e;
+    text-decoration: none;
+}
+.rightSide .logInRefence a:hover{
+    color: white;
+}

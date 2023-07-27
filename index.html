@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200;400&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="leftSide">
+        <div class="heading">
+            <img src="odin-lined.png" alt="logo" height="auto">
+            <h2>Odin</h2>
+        </div>
+        <div class="footer">
+
+            <p>Photo by <a href="https://unsplash.com/@loreb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorenzo Berti</a> on <a href="https://unsplash.com/photos/a-person-taking-a-picture-of-the-empire-building-at-night-SwLUGdZSgC8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+        </div>
+    </div>
+
+    <div class="rightSide">
+        <p class="heading">
+            This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+                Sign up now to get started.
+        </p>
+        <form action="#">
+            <fieldset>
+                <h3>Sign up form</h3>
+
+                <ul class="biggerList">
+                    <li>
+                        <ul class="lists">
+                        <li><label for="first_name">FIRST NAME</label> <br>
+                            <input type="text" id="first_name" name="first_name" required> <br></li>
+                            <li><label for="last_name">LAST NAME</label> <br>
+                            <input type="text" id="last_name" name="last_name" required> <br></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="lists">
+                            <li><label for="email">EMAIL</label> <br>
+                                <input type="email" id="email" name="email" required><br></li>
+                            <li><label for="phone_number">PHONE NUMBER</label> <br>
+                                <input type="tel" id="phone_number" name="phone_number" required > <br></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="lists">
+                            <li><label for="password">PASSWORD</label> <br>
+                                <input type="password" id="password" name="password" required> <br></li>
+                            <li><label for="password_confirmation">CONFIRM PASSWORD  </label> <br>
+                                <input type="password" name="confirmed" id="password_confirmation" required> <br></li>
+                        </ul>
+                    </li>
+                </ul>
+            </fieldset>
+            <br>
+            <button type="submit">Create Account</button>
+        </form>
+         <br>
+         <p class="logInRefence">already have an account? <a href="#">Log in</a></p>
+    </div>
+</body>
+</html>
